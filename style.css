@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'calligraffiti' ;
+    src: url(fonts/calligraffiti/Calligraffiti.ttf);
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'aquiline';
+    src: url(fonts/Aquiline-two/AquilineTwo.ttf);
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'dobkin';
+    src: url(fonts/Dobkin/DobkinPlain.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {    /* pour la version mobile changer/supp cette valeur */
     margin-left: 200px;
     margin-right: 200px;
@@ -7,16 +24,20 @@ body {    /* pour la version mobile changer/supp cette valeur */
 
 h1 {
     text-align: center;
+    font-family: "calligraffiti", "aquiline" ,"dobkin";
+    font-size: 90px;
+    
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  font-size: 40px;
   }
 
   nav li {
-  margin-right: 15px;
+  margin-right: 30px;
   }
 
 
