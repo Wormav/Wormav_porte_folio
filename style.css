@@ -67,6 +67,8 @@ nav ul {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    margin-left: -20px;
+    
 }
 
 #signature {
@@ -75,8 +77,16 @@ nav ul {
 }
 
 
-#réseaux {}
+#réseaux {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
 
 
-#réseaux img {}
+#réseaux img {
+    width: 60px;
+    height: 40px;
+    margin-left: 3px;
+}
