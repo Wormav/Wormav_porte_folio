@@ -1,3 +1,8 @@
+body {    /* pour la version mobile changer/supp cette valeur */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 /* PARTIE HEADER */
 
 h1 {
@@ -22,10 +27,14 @@ img {
     height: 400px;
     margin-right: 15px;
     margin-top: 15px;
+    box-shadow: 8px 8px 12px rgb(122, 120, 120);
+    max-inline-size: 50%;
 }
 
 #Galerie {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
+    align-items: baseline;
+
 }
