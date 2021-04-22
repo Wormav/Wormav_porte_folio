@@ -1,32 +1,50 @@
 @font-face {
-    font-family: 'calligraffiti' ;
-    src: url(fonts/calligraffiti/Calligraffiti.ttf);
-    font-weight: normal;
-    font-style: normal;
+  font-family: "calligraffiti";
+  src: url(fonts/calligraffiti/Calligraffiti.ttf);
+  font-weight: normal;
+  font-style: normal;
 
-    font-family: 'aquiline';
-    src: url(fonts/Aquiline-two/AquilineTwo.ttf);
-    font-weight: normal;
-    font-style: normal;
+  font-family: "aquiline";
+  src: url(fonts/Aquiline-two/AquilineTwo.ttf);
+  font-weight: normal;
+  font-style: normal;
 
-    font-family: 'dobkin';
-    src: url(fonts/Dobkin/DobkinPlain.ttf);
-    font-weight: normal;
-    font-style: normal;
+  font-family: "dobkin";
+  src: url(fonts/Dobkin/DobkinPlain.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
 
-body {    /* pour la version mobile changer/supp cette valeur */
-    margin-left: 200px;
-    margin-right: 200px;
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+#mentions a:link {
+  color: black;
+  text-decoration: none;
+}
+
+
+body {
+  /* pour la version mobile changer/supp cette valeur */
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /* PARTIE HEADER */
 
 h1 {
-    text-align: center;
-    font-family: "calligraffiti", "aquiline" ,"dobkin";
-    font-size: 90px;
-    
+  text-align: center;
+  font-family: "calligraffiti", "aquiline", "dobkin";
+  font-size: 90px;
 }
 
 nav ul {
@@ -34,59 +52,53 @@ nav ul {
   display: flex;
   justify-content: center;
   font-size: 40px;
-  }
+}
 
-  nav li {
+nav li {
   margin-right: 30px;
-  }
+}
 
-
-  /* PARTIE SECTION */
+/* PARTIE SECTION */
 
 #Galerie img {
-    width: 400px;
-    height: 400px;
-    margin-right: 15px;
-    margin-top: 15px;
-    box-shadow: 8px 8px 12px rgb(122, 120, 120);
-    max-inline-size: 50%;
+  width: 400px;
+  height: 400px;
+  margin-right: 15px;
+  margin-top: 15px;
+  box-shadow: 8px 8px 12px rgb(122, 120, 120);
+  max-inline-size: 50%;
 }
 
 #Galerie {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: baseline;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
 }
 
 /* PARTIE FOOTER */
 
-#mentions ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-left: -20px;
-    
+#mentions ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: -20px;
 }
 
 #signature {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
-
 
 #réseaux {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-
-
 #réseaux img {
-    width: 60px;
-    height: 40px;
-    margin-left: 3px;
+  width: 60px;
+  height: 40px;
+  margin-left: 3px;
 }
