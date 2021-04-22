@@ -130,3 +130,45 @@ h2 {
   margin-top: 30px;
   margin-bottom: 150px;
 }
+
+/* PARTIE SECTION CONTACT */
+
+#logo_avion {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#Text_contact {
+  margin-top: 50px;
+}
+
+#Text_contact p {
+  text-align: center;
+}
+
+#formulaires {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+}
+
+input {
+  margin-bottom: 7px;
+  background-color: rgb(238, 234, 234);
+}
+
+textarea {
+  background-color: rgb(238, 234 ,234);
+  width: 250px;
+}
