@@ -1,0 +1,33 @@
+/* index*/
+
+
+#Galerie img  {
+    display: flex;
+    width: auto;
+    height: auto;
+    max-inline-size: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav li {
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+/* footer */
+
+#mentions {
+    font-size: 10px;
+}
