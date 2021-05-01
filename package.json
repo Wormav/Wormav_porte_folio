@@ -1,0 +1,19 @@
+{
+  "name": "wormav_porte_folio",
+  "version": "1.0.0",
+  "description": "projet perso (exercice)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremy-lorette/Wormav_porte_folio.git"
+  },
+  "author": "Jérémy Lorette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremy-lorette/Wormav_porte_folio/issues"
+  },
+  "homepage": "https://github.com/jeremy-lorette/Wormav_porte_folio#readme"
+}
