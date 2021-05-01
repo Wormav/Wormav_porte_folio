@@ -1,20 +1,18 @@
+@charset "UTF-8";
 @font-face {
   font-family: "calligraffiti";
   src: url(fonts/calligraffiti/Calligraffiti.ttf);
   font-weight: normal;
   font-style: normal;
-
   font-family: "aquiline";
   src: url(fonts/Aquiline-two/AquilineTwo.ttf);
   font-weight: normal;
   font-style: normal;
-
   font-family: "dobkin";
   src: url(fonts/Dobkin/DobkinPlain.ttf);
   font-weight: normal;
   font-style: normal;
 }
-
 a:visited {
   color: black;
 }
@@ -32,14 +30,10 @@ a:hover {
   text-decoration: none;
 }
 
-
-body {
-  /* pour la version mobile changer/supp cette valeur */
-  margin-left: 200px;
-  margin-right: 200px;
+nput {
+  margin-bottom: 7px;
+  background-color: #eeeaea;
 }
-
-/* PARTIE HEADER */
 
 h1 {
   text-align: center;
@@ -58,14 +52,12 @@ nav li {
   margin-right: 30px;
 }
 
-/* PARTIE SECTION */
-
 #Galerie img {
   width: auto;
   height: auto;
   margin-right: 15px;
   margin-top: 15px;
-  box-shadow: 8px 8px 12px rgb(122, 120, 120);
+  box-shadow: 8px 8px 12px #7a7878;
   max-inline-size: 40%;
 }
 
@@ -75,8 +67,6 @@ nav li {
   justify-content: center;
   align-items: baseline;
 }
-
-/* PARTIE FOOTER */
 
 #mentions ul {
   list-style-type: none;
@@ -103,12 +93,10 @@ nav li {
   margin-left: 3px;
 }
 
-/* PARTIE SECTION A PROPOS */
-
 #Portrait img {
   width: 250px;
   height: 350px;
-  box-shadow: 8px 8px 12px rgb(122, 120, 120);
+  box-shadow: 8px 8px 12px #7a7878;
 }
 
 #Portrait {
@@ -131,8 +119,6 @@ h2 {
   margin-bottom: 150px;
 }
 
-/* PARTIE SECTION CONTACT */
-
 #logo_avion {
   display: flex;
   justify-content: center;
@@ -153,7 +139,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  
 }
 
 form {
@@ -163,12 +148,9 @@ form {
   width: 250px;
 }
 
-input {
-  margin-bottom: 7px;
-  background-color: rgb(238, 234, 234);
-}
-
 textarea {
-  background-color: rgb(238, 234 ,234);
+  background-color: #eeeaea;
   width: 250px;
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+#mentions ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+#signature {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#réseaux {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#réseaux img {
+  width: 60px;
+  height: 40px;
+  margin-left: 3px;
+}
