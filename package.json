@@ -4,7 +4,8 @@
   "description": "projet perso (exercice)",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./style.css"
+    "sass": "sass --watch ./sass/main.scss:./style.css --style compressed",
+    "prefix": "postcss ./style.css --use autoprefixer -d ."
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "author": "Jérémy Lorette",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/jeremy-lorette/Wormav_porte_folio/issues"
   },
