@@ -1,0 +1,20 @@
+@mixin Titre {
+  text-align: center;
+  font-family: $Typo_titre;
+  font-size: 90px;
+}
+
+@mixin Galerie {
+  width: auto;
+  height: auto;
+  margin-right: 15px;
+  margin-top: 15px;
+  box-shadow: $Ombres;
+  max-inline-size: 40%;
+}
+
+@mixin Bouton {
+  margin-bottom: 7px;
+  background-color: $fond;
+    
+}
