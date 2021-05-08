@@ -32,7 +32,7 @@ a:hover {
 
 #Envoyer {
   margin-bottom: 7px;
-  background-color: #eeeaea;
+  background-color: #e7e6e6;
   border-radius: 0.4em;
   transform: scale(1);
   transition: transform 400ms;
@@ -155,7 +155,7 @@ form {
 }
 
 textarea {
-  background-color: #eeeaea;
+  background-color: white;
   width: 250px;
 }
 
