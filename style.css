@@ -41,6 +41,18 @@ a:hover {
   transform: scale(1.15);
 }
 
+#nom, #email, #tel, #message {
+  transition: background-color 500ms;
+}
+#nom:focus, #email:focus, #tel:focus, #message:focus {
+  border: 2px solid blue;
+}
+#nom:not(:focus):invalid, #email:not(:focus):invalid, #tel:not(:focus):invalid, #message:not(:focus):invalid {
+  background: rgba(255, 0, 0, 0.137);
+  border: 2px solid rgba(255, 0, 0, 0.137);
+  color: black;
+}
+
 h1 {
   text-align: center;
   font-family: "calligraffiti", "aquiline", "dobkin";

@@ -1,3 +1,7 @@
 #Envoyer {
   @include Bouton
 }
+
+#nom,#email,#tel,#message {
+  @include focus
+}

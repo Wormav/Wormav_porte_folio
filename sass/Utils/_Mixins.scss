@@ -24,3 +24,15 @@
   }
     
 }
+
+@mixin focus {
+  transition: background-color 500ms;
+  &:focus {
+    border: 2px solid blue;
+  } 
+  &:not(:focus):invalid {
+    background: $invalid;
+    border: 2px solid $invalid;
+    color: black;
+  }
+}
