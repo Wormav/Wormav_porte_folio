@@ -32,13 +32,25 @@ a:hover {
 
 #Envoyer {
   margin-bottom: 7px;
-  background-color: #eeeaea;
+  background-color: #e7e6e6;
   border-radius: 0.4em;
   transform: scale(1);
   transition: transform 400ms;
 }
 #Envoyer:hover {
   transform: scale(1.15);
+}
+
+#nom, #email, #tel, #message {
+  transition: background-color 500ms;
+}
+#nom:focus, #email:focus, #tel:focus, #message:focus {
+  border: 2px solid blue;
+}
+#nom:not(:focus):invalid, #email:not(:focus):invalid, #tel:not(:focus):invalid, #message:not(:focus):invalid {
+  background: rgba(255, 0, 0, 0.137);
+  border: 2px solid rgba(255, 0, 0, 0.137);
+  color: black;
 }
 
 h1 {
@@ -51,7 +63,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 nav li {
@@ -155,7 +167,7 @@ form {
 }
 
 textarea {
-  background-color: #eeeaea;
+  background-color: white;
   width: 250px;
 }
 

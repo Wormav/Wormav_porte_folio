@@ -15,7 +15,7 @@
 
 @mixin Bouton {
   margin-bottom: 7px;
-  background-color: $fond;
+  background-color: $fond-buttons;
   border-radius: 0.4em;
   transform: scale(1);
   transition: transform 400ms;
@@ -23,4 +23,16 @@
     transform: scale(1.15);
   }
     
+}
+
+@mixin focus {
+  transition: background-color 500ms;
+  &:focus {
+    border: 2px solid blue;
+  } 
+  &:not(:focus):invalid {
+    background: $invalid;
+    border: 2px solid $invalid;
+    color: black;
+  }
 }
